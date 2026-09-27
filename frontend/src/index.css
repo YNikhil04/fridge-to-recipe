@@ -1,0 +1,23 @@
+/* Minimal global reset. All real theming lives in App.css, scoped to
+   .app-shell - this file only handles the handful of things that must
+   be set globally (box-sizing, full-height html/body for the no-scroll
+   split-screen layout, font smoothing). */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
