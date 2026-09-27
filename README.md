@@ -137,8 +137,7 @@ guard in `useRecipeGenerator`, and the overall file/folder structure. I
 reviewed and understand each piece and can walk through/modify any of it
 live.
 
-*(Personalize this paragraph honestly before submitting — mention anything
-you changed, debugged, or wrote yourself on top of this.)*
+ 
 
 ## Known limitations
 
@@ -151,7 +150,4 @@ you changed, debugged, or wrote yourself on top of this.)*
 - No session persistence yet — refreshing the page loses the current
   recipe (see stretch goals: `localStorage` save/reload).
 
-## Time spent
-
-*(Fill in honestly, broken down roughly: backend, frontend, styling/mobile,
-testing failure paths, README/recording.)*
+ 
